@@ -14,7 +14,7 @@ env/
 ENV/
 .env
 
-# Saved models (if you save .pkl files later)
+# Saved models
 *.pkl
 *.joblib
 
