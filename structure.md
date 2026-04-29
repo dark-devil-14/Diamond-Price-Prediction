@@ -20,7 +20,7 @@
     *   It performs an initial check for missing values using `df.isnull().sum()`.
     *   Crucially, it identifies a data quality issue: diamonds with dimensions `x`, `y`, or `z` equal to zero, which is physically impossible. These rows are dropped from the dataset.
 *   **Why is it done?**
-    *   Loading the data is the first step of any ML project.
+    *   Loading the data.
     *   The check for zero dimensions is a critical data cleaning step based on domain knowledge. These data points are invalid and would introduce significant noise and errors into the model. For instance, a feature like `volume` (x*y*z) would become zero, completely misrepresenting the diamond.
 *   **What would happen if we skip it?**
     *   If the rows with zero dimensions were not removed, the model would learn from faulty data. This would lead to a less accurate and unreliable model. The calculated `volume` would be zero for these diamonds, breaking the strong relationship between size and price, and leading to poor predictions.
