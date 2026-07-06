@@ -17,6 +17,7 @@ ENV/
 # Saved models
 *.pkl
 *.joblib
+!models/*.pkl
 
 # IDE settings
 .vscode/
