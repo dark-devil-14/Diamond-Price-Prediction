@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 alembic @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_alembic_1770806831/work
 anyio==4.13.0
 appnope @ file:///home/conda/feedstock_root/build_artifacts/appnope_1733332318622/work
@@ -71,3 +72,58 @@ wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_177063452528
 wheel==0.45.1
 xgboost @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_7eg2b3w9sf/croot/xgboost-split_1749630922962/work/python-package
 zipp @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_zipp_1776131454/work
+=======
+appnope
+asttokens
+Bottleneck
+Brotli
+comm
+contourpy
+cycler
+debugpy
+decorator
+executing
+fonttools
+ipykernel
+ipython
+ipython_pygments_lexers
+jedi
+joblib
+jupyter_client
+jupyter_core
+kiwisolver
+matplotlib==3.10.0
+matplotlib-inline
+nest_asyncio
+numexpr
+numpy
+packaging
+pandas
+parso
+pexpect
+pillow
+platformdirs
+prompt_toolkit
+psutil
+ptyprocess
+pure_eval
+Pygments
+pyparsing
+python-dateutil
+pytz
+pyzmq
+scikit-learn
+scipy
+seaborn
+setuptools==78.1.1
+six
+stack_data
+threadpoolctl
+tornado
+traitlets
+tzdata
+unicodedata2
+wcwidth
+wheel==0.45.1
+xgboost
+>>>>>>> Stashed changes
